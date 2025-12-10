@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Gioco da Tavolo - Salute & Benessere</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    section {
+      padding: 40px 20px;
+      margin: 0;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    /* Sezione informazioni */
+    #info {
+      background-color: #ffffff;
+    }
+
+    /* Sezioni colorate */
+    #nutrition {
+      background-color: #ffcccc;
+    }
+
+    #exercise {
+      background-color: #ccffcc;
+    }
+
+    #mental-health {
+      background-color: #ccccff;
+    }
+
+    #prevention {
+      background-color: #fff0b3;
+    }
+
+    .subcategory {
+      background-color: rgba(255,255,255,0.7);
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Gioco da Tavolo: Health Quest</h1>
+  <p>Un gioco educativo basato sulla salute e il benessere</p>
+</header>
+
+<!-- SEZIONE 1: INFORMAZIONI SUL GIOCO -->
+<section id="info">
+  <h2>Informazioni sul gioco</h2>
+  <p>
+    Health Quest è un gioco da tavolo che insegna l'importanza di uno stile di vita sano
+    attraverso domande, sfide e azioni legate all'alimentazione, all'attività fisica,
+    alla salute mentale e alla prevenzione.
+  </p>
+  <p>
+    I giocatori avanzano sul tabellone completando missioni e guadagnando punti salute.
+  </p>
+</section>
+
+<!-- SEZIONE 2: ALIMENTAZIONE (rossa chiara) -->
+<section id="nutrition">
+  <h2>Alimentazione Sana</h2>
+
+  <div class="subcategory">1. Frutta e verdura</div>
+  <div class="subcategory">2. Idratazione</div>
+  <div class="subcategory">3. Zuccheri e dolci</div>
+  <div class="subcategory">4. Colazione equilibrata</div>
+  <div class="subcategory">5. Porzioni corrette</div>
+  <div class="subcategory">6. Vitamine e minerali</div>
+  <div class="subcategory">7. Cibo ultra-processato</div>
+  <div class="subcategory">8. Dieta bilanciata</div>
+</section>
+
+<!-- SEZIONE 3: ATTIVITÀ FISICA (verde) -->
+<section id="exercise">
+  <h2>Attività Fisica</h2>
+
+  <div class="subcategory">1. Camminata</div>
+  <div class="subcategory">2. Stretching</div>
+  <div class="subcategory">3. Sport di squadra</div>
+  <div class="subcategory">4. Allenamento di forza</div>
+  <div class="subcategory">5. Yoga</div>
+  <div class="subcategory">6. Equilibrio e coordinazione</div>
+  <div class="subcategory">7. Riscaldamento</div>
+  <div class="subcategory">8. Recupero muscolare</div>
+</section>
+
+<!-- SEZIONE 4: SALUTE MENTALE (blu) -->
+<section id="mental-health">
+  <h2>Salute Mentale</h2>
+
+  <div class="subcategory">1. Gestione dello stress</div>
+  <div class="subcategory">2. Respirazione profonda</div>
+  <div class="subcategory">3. Sonno di qualità</div>
+  <div class="subcategory">4. Autostima</div>
+  <div class="subcategory">5. Relazioni positive</div>
+  <div class="subcategory">6. Mindfulness</div>
+  <div class="subcategory">7. Tempo libero</div>
+  <div class="subcategory">8. Motivazione</div>
+</section>
+
+<!-- SEZIONE 5: PREVENZIONE (giallo chiaro) -->
+<section id="prevention">
+  <h2>Prevenzione e Sicurezza</h2>
+
+  <div class="subcategory">1. Lavaggio delle mani</div>
+  <div class="subcategory">2. Controlli medici</div>
+  <div class="subcategory">3. Igiene orale</div>
+  <div class="subcategory">4. Uso della protezione solare</div>
+  <div class="subcategory">5. Postura corretta</div>
+  <div class="subcategory">6. Sicurezza stradale</div>
+  <div class="subcategory">7. Primo soccorso</div>
+  <div class="subcategory">8. Vaccinazioni</div>
+</section>
+
+</body>
+</html>
